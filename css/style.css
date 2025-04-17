@@ -1,0 +1,28 @@
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fffaf3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background-color: #ffe9c5;
+    text-align: center;
+    padding: 1rem;
+}
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #5a3e36;
+}
+.hero, .story {
+    text-align: center;
+    padding: 2rem;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}

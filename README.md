@@ -1,2 +1,3 @@
 # Les Paroles qui Illuminent
-Un site de petites histoires pour semer lumière et chaleur.
+
+Site statique de petites histoires inspirantes.
