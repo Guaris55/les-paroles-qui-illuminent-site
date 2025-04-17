@@ -1,3 +1,3 @@
 # Les Paroles qui Illuminent
 
-Site statique avec design doux et affirmé, histoires illustrées, formulaire de contact et newsletter.
+Un site statique de petites histoires inspirantes, pour semer lumière et chaleur. Construit avec amour. Déployé sur GitHub Pages.
