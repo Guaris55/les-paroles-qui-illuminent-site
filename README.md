@@ -1,3 +1,2 @@
 # Les Paroles qui Illuminent
-
-Un site statique de petites histoires inspirantes, pour semer lumière et chaleur. Construit avec amour. Déployé sur GitHub Pages.
+Un site de petites histoires pour semer lumière et chaleur.

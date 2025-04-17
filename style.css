@@ -1,40 +1,40 @@
-
 body {
   margin: 0;
   font-family: 'Georgia', serif;
-  background: #fffafc;
-  color: #2e001e;
+  background: #fff8f7;
+  color: #4a1c1c;
 }
 header {
-  background: #800020;
+  background: #7d1e2f;
   color: white;
   padding: 1rem;
   text-align: center;
 }
 nav a {
-  color: white;
   margin: 0 1rem;
+  color: white;
   text-decoration: none;
 }
-.hero {
-  text-align: center;
-  padding: 3rem 1rem;
-  background-color: #ffeef4;
+nav a:hover {
+  text-decoration: underline;
 }
-.cta {
-  text-align: center;
-  margin: 2rem;
+main {
+  padding: 2rem;
 }
-.btn {
-  padding: 0.7rem 1.5rem;
-  background: #b3003b;
+.intro {
+  text-align: center;
+}
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #b12a3a;
   color: white;
   text-decoration: none;
   border-radius: 5px;
 }
 footer {
-  background: #800020;
-  color: white;
   text-align: center;
+  margin-top: 2rem;
   padding: 1rem;
+  background: #eee;
 }
