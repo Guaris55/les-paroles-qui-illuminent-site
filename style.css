@@ -1,0 +1,40 @@
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: #fffafc;
+  color: #2e001e;
+}
+header {
+  background: #800020;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #ffeef4;
+}
+.cta {
+  text-align: center;
+  margin: 2rem;
+}
+.btn {
+  padding: 0.7rem 1.5rem;
+  background: #b3003b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+footer {
+  background: #800020;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
