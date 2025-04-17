@@ -2,32 +2,130 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Les Paroles qui Illuminent</title>
-  <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Les Paroles qui Illuminent</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: #fff8f6;
+            margin: 0;
+            padding: 0;
+            color: #4b1c1c;
+        }
+        header {
+            background-color: #800000;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 1em 0;
+        }
+        nav a {
+            margin: 0 1em;
+            color: #800000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 2em;
+            max-width: 800px;
+            margin: auto;
+        }
+        .story {
+            border: 1px solid #d6b1b1;
+            background-color: #fff0f0;
+            border-radius: 8px;
+            padding: 1em;
+            margin-bottom: 2em;
+        }
+        .story img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            padding: 0.5em;
+            margin: 0.5em 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #800000;
+            color: white;
+            border: none;
+            padding: 0.7em;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #800000;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            margin-top: 2em;
+        }
+        @media (max-width: 600px) {
+            body {
+                font-size: 16px;
+            }
+            nav {
+                font-size: 14px;
+            }
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Les Paroles qui Illuminent</h1>
+    <header>
+        <h1>Les Paroles qui Illuminent</h1>
+        <p>Petites histoires pour semer lumière et chaleur</p>
+    </header>
     <nav>
-      <a href="index.html">Accueil</a>
-      <a href="histoires.html">Histoires</a>
-      <a href="a-propos.html">À propos</a>
-      <a href="contact.html">Contact</a>
+        <a href="#">Accueil</a>
+        <a href="#histoires">Histoires</a>
+        <a href="#contact">Contact</a>
     </nav>
-  </header>
-  <main>
-    <section class="hero">
-      <h2>Petites histoires pour semer lumière et chaleur</h2>
-      <p>Une pause, un souffle, une vérité. Chaque mot est une lanterne pour votre cœur.</p>
-    </section>
-    <section class="cta">
-      <a class="btn" href="histoires.html">Découvrir les histoires</a>
-    </section>
-  </main>
-  <footer>
-    <p>© 2025 Les Paroles qui Illuminent</p>
-  </footer>
+    <main>
+        <section id="histoires">
+            <div class="story">
+                <h2>Le Souffle du Matin</h2>
+                <img src="https://picsum.photos/seed/souffle/800/300" alt="Souffle du Matin">
+                <p>Un instant suspendu où le monde semble à l'écoute. Découvrez cette brève histoire de renouveau.</p>
+                <a href="https://guaris55.gumroad.com/l/souffle" target="_blank">Lire ou acheter</a>
+            </div>
+            <div class="story">
+                <h2>Le Poids des Petites Choses</h2>
+                <img src="https://picsum.photos/seed/poids/800/300" alt="Petites Choses">
+                <p>Quand l'infime devient porteur de sens. Une lanterne discrète pour éclairer le quotidien.</p>
+                <a href="https://guaris55.gumroad.com/l/poids" target="_blank">Lire ou acheter</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="https://formspree.io/f/mwkgrrjv" method="POST">
+                <input type="text" name="name" placeholder="Votre nom" required>
+                <input type="email" name="_replyto" placeholder="Votre adresse email" required>
+                <textarea name="message" placeholder="Votre message..." rows="5" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+
+        <section id="newsletter">
+            <h2>Newsletter</h2>
+            <form action="https://formspree.io/f/mwkgrrjv" method="POST">
+                <input type="email" name="email" placeholder="Votre email pour recevoir les histoires" required>
+                <button type="submit">S’inscrire</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        © 2025 Les Paroles qui Illuminent
+    </footer>
 </body>
 </html>
